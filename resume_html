@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niya Biju Philip's Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .resume {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            text-align: center;
+            background-color: #8B4513; /* Brown Color */
+            color: white;
+            padding: 20px 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .header p {
+            margin: 5px 0;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #8B4513; /* Brown Color */
+            padding-bottom: 5px;
+            color: #8B4513; /* Brown Color */
+            margin-bottom: 10px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin: 10px 0;
+        }
+        .contact-info ul li, .education ul li, .experience ul li {
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact-info ul li span, .education ul li span, .experience ul li span {
+            flex: 1;
+        }
+        .skills ul li {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            background: #8B4513; /* Brown Color */
+            color: white;
+            border-radius: 5px;
+        }
+        .projects ul li, .experience ul li ul li {
+            margin-left: 20px;
+            list-style-type: disc;
+        }
+        .address {
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+            border-top: 1px solid #ccc;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="header">
+            <h1>Niya Biju Philip</h1>
+            <p>Student </p>
+<p> Jyoti Nivas College (Master of Computer Science)</p>
+            <p>AR Lens Creator - Under 25</p>
+            <p>Email: <a href="Mailto:niyabijuph10@gmail.com" style="color: white;">niyabijuph10@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/niya-biju-3aa5211a5" style="color: white;">www.linkedin.com/in/niya-biju-3aa5211a5</a></p>
+            <p>Phone: 7204760117</p>
+        </div>
+        <div class="section objective">
+            <h2>Objective</h2>
+            <p>Student, learning new stuff every day! Aspiring Cyber Security Analyst, passionate about cyber security, looking for any opportunities that would build my skills in it.</p>
+        </div>
+        <div class="section education">
+            <h2>Education</h2>
+            <ul>
+                <li><span>Jyoti Nivas College</span> <span>Masters of Computer Applications, 2023-2025</span></li>
+                <li><span>Christ Academy Institute For Advance Studies</span> <span>Bachelors of Computer Application, 2020-2023</span></li>
+                <li><span>St. Francis De Sales PU College</span> <span>CEBA, 2018-2020</span></li>
+                <li><span>Sri Chaitanya International Residential School</span> <span>2016-2018</span></li>
+            </ul>
+        </div>
+        <div class="section languages">
+            <h2>Languages</h2>
+            <p>English, Hindi, Kannada, Tamil, Malayalam</p>
+        </div>
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>AR Filter Creator</li>
+                <li>HTML</li>
+                <li>C</li>
+                <li>Java</li>
+                <li>Microsoft</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+        <div class="section projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>WEB developments on a mini project on electrical shop management</li>
+                <li>IOT project on a blind stick detector</li>
+            </ul>
+        </div>
+        <div class="section experience">
+            <h2>Work History</h2>
+            <ul>
+                <li>
+                    <span>Snapchat Opinion Leader '23</span>
+                    <ul>
+                        <li>Responsible for building and nurturing the community of students interested in Augmented Reality content and experiences.</li>
+                        <li>Part of efforts by Snapchat India and Under 25 to support the AR ecosystem on campuses.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="section certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Power BI by Microsoft</li>
+                <li>Power Python by Microsoft</li>
+                <li>Google UI/UX Design professional course by Pittonix Solutions</li>
+            </ul>
+        </div>
+        <div class="section hobbies">
+            <h2>Hobbies</h2>
+            <p>Dancing, Cooking, Baking</p>
+        </div>
+        <div class="section address">
+            <h2>Mailing Address</h2>
+            <p>#305, Vmaks Chalet, Ananthnagar, Sampigenagar, Ecity phase 2, Bangalore-100</p>
+        </div>
+    </div>
+</body>
+</html>
